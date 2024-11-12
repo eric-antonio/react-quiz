@@ -4,7 +4,8 @@ function FinishScreen({dispatch, points, maxPointsPossible ,highScore}) {
   if (percentage === 100) emoji = "🎉";
   else if (percentage >= 80) emoji = "👏";
   else if (percentage >= 60) emoji = "👍";
-  else if (percentage >= 40) emoji = "😐";
+  else if (percentage >= 50) emoji = "😕";
+  else if (percentage >= 30) emoji = "😐";
   else emoji = "👎";
   return (
     <>
